@@ -1,7 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2008
-
-Project("{68FCB230-637A-9087-3DBE-6EF4D6E7EECE}") = "avegames_task", "Assembly-CSharp-vs.csproj", "{FF49D88A-A3BF-8E07-F9B7-CBEFC68C82CB}"
+# Visual Studio 2010
+Project("{68FCB230-637A-9087-3DBE-6EF4D6E7EECE}") = "Assembly-CSharp-vs", "Assembly-CSharp-vs.csproj", "{FF49D88A-A3BF-8E07-F9B7-CBEFC68C82CB}"
+EndProject
+Project("{68FCB230-637A-9087-3DBE-6EF4D6E7EECE}") = "Assembly-CSharp-Editor-vs", "Assembly-CSharp-Editor-vs.csproj", "{7BD61A43-6F0E-A93D-AC1F-4CBF9B9E6F48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,11 +14,15 @@ Global
 		{FF49D88A-A3BF-8E07-F9B7-CBEFC68C82CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF49D88A-A3BF-8E07-F9B7-CBEFC68C82CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF49D88A-A3BF-8E07-F9B7-CBEFC68C82CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD61A43-6F0E-A93D-AC1F-4CBF9B9E6F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD61A43-6F0E-A93D-AC1F-4CBF9B9E6F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD61A43-6F0E-A93D-AC1F-4CBF9B9E6F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD61A43-6F0E-A93D-AC1F-4CBF9B9E6F48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																			GlobalSection(MonoDevelopProperties) = preSolution
+	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -35,5 +40,4 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
 EndGlobal
